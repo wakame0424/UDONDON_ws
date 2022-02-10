@@ -1,0 +1,4 @@
+@startuml アクティビティ図
+start
+stop
+@enduml
