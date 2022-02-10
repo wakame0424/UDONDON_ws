@@ -129,14 +129,12 @@
 
 	/* 演習1 ここから */
 	function sub() {}
-	function add() {}
+	function add() {
+		eqlNum.value = parseFloat(midNum[0].value) + parseFloat(midNum[1].value);
+	}
 	/* 演習1 ここまで */
 
 	/* TODO: 演習2 以降は下記に自由に記入 */
-	//足し算用の関数 add
-	function add(){
-		eqlNum.value = parseFloat(midNum[0].value) + parseFloat(midNum[1].value);
-	}
 
 	/* 演習の編集範囲 おわり */
 
